@@ -16,7 +16,7 @@ const fs = require("fs-extra");
 
 async function main() {
 
-  const provider = new ethers.providers.JsonRpcProvider("http://127.0.0.1:7545"); // * making an connection in local enivornment using an Rpc link using ganache
+  const provider = new ethers.providers.JsonRpcProvider("http://127.0.0.1:7123"); // * making an connection in local enivornment using an Rpc link using ganache
   const wallet = new ethers.Wallet("0x1338109aeda84ff92440187457dbf605c61c10f342b2b18d98dfc54940c55509",  //? it is used for connection to a wallet in an block chain
     provider
   );
